@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.alexzh:circleimageview:1.2.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c7568d21b5b5aee06f07fbb1dfef6976/jetified-circleimageview-1.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c7568d21b5b5aee06f07fbb1dfef6976/jetified-circleimageview-1.2.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c7568d21b5b5aee06f07fbb1dfef6976/jetified-circleimageview-1.2.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c7568d21b5b5aee06f07fbb1dfef6976/jetified-circleimageview-1.2.0/jars/libs/nineoldandroid-library-2.4.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alexzh/circleimageview/1.2.0/c7b911002e15da253ab918fd33ade6cc89982be6/circleimageview-1.2.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alexzh/circleimageview/1.2.0/4d1f0911b036e35ebc40b9612a3097622f8b989c/circleimageview-1.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
