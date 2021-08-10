@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#18855C"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/lnSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#18855C"
+            android:orientation="vertical"
+            tools:context=".SignUp">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:src="@drawable/logo" />
+
+            <com.libizo.CustomEditText
+                android:id="@+id/edtUserName_SignUp"
+                android:layout_width="320dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:hint="User Name"
+                android:inputType="text"
+                android:textColor="@color/white"
+                android:textColorHint="#95FFFFFF"
+                app:libIZO_clearIconTint="@color/black"
+                app:libIZO_setBorderColor="#ffe0ac"
+                app:libIZO_setBorderView="true"
+                app:libIZO_setClearIconVisible="true"
+                app:libIZO_setCornerRadius="8dp"
+                app:libIZO_setStrokeWidth="2dp" />
+
+            <com.libizo.CustomEditText
+                android:id="@+id/edtEmail_SignUp"
+                android:layout_width="320dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:hint="Email"
+                android:inputType="text"
+                android:textColor="@color/white"
+                android:textColorHint="#95FFFFFF"
+                app:libIZO_clearIconTint="@color/black"
+                app:libIZO_setBorderColor="#ffe0ac"
+                app:libIZO_setBorderView="true"
+                app:libIZO_setClearIconVisible="true"
+                app:libIZO_setCornerRadius="8dp"
+                app:libIZO_setStrokeWidth="2dp"
+
+                />
+
+            <com.libizo.CustomEditText
+                android:id="@+id/edt_Phone"
+                android:layout_width="320dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:hint=""
+                android:inputType="phone"
+                android:textColor="@color/white"
+                android:textColorHint="#95FFFFFF"
+                app:libIZO_clearIconTint="@color/black"
+                app:libIZO_setBorderColor="#ffe0ac"
+                app:libIZO_setBorderView="true"
+                app:libIZO_setClearIconVisible="true"
+                app:libIZO_setCornerRadius="8dp"
+                app:libIZO_setPrefix="+84"
+                app:libIZO_setStrokeWidth="2dp" />
+
+            <com.libizo.CustomEditText
+                android:id="@+id/edtAddress_SignUp"
+                android:layout_width="320dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:hint="Address"
+                android:inputType="text"
+                android:textColor="@color/white"
+                android:textColorHint="#95FFFFFF"
+                app:libIZO_setBorderColor="#ffe0ac"
+                app:libIZO_setBorderView="true"
+                app:libIZO_setClearIconVisible="true"
+                app:libIZO_setCornerRadius="8dp"
+                app:libIZO_setStrokeWidth="2dp" />
+
+            <com.libizo.CustomEditText
+                android:id="@+id/edtPassword_SignUp"
+                android:layout_width="320dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textColor="@color/white"
+                android:textColorHint="#95FFFFFF"
+                app:libIZO_hideShowPasswordIconTint="@color/black"
+                app:libIZO_setBorderColor="#ffe0ac"
+                app:libIZO_setBorderView="true"
+                app:libIZO_setClearIconVisible="true"
+                app:libIZO_setCornerRadius="8dp"
+                app:libIZO_setStrokeWidth="2dp" />
+
+            <com.libizo.CustomEditText
+                android:id="@+id/edtRePassword"
+                android:layout_width="320dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:hint="RePassword"
+                android:inputType="textPassword"
+                android:textColor="@color/white"
+                android:textColorHint="#95FFFFFF"
+                app:libIZO_hideShowPasswordIconTint="@color/black"
+                app:libIZO_setBorderColor="#ffe0ac"
+                app:libIZO_setBorderView="true"
+                app:libIZO_setClearIconVisible="true"
+                app:libIZO_setCornerRadius="8dp"
+                app:libIZO_setStrokeWidth="2dp" />
+
+
+            <com.libizo.CustomEditText
+                android:editable="false"
+                android:drawableTint="#FFE0AC"
+                android:id="@+id/edtBirth"
+                android:layout_width="320dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:drawableLeft="@drawable/ic_baseline_calendar_today_24"
+                android:text="19/10/2001"
+                android:inputType="none"
+                android:textColor="@color/white"
+                android:textColorHint="#95FFFFFF"
+                app:libIZO_setBorderColor="#ffe0ac"
+                app:libIZO_setBorderView="true"
+                app:libIZO_setClearIconVisible="true"
+                app:libIZO_setCornerRadius="8dp"
+                app:libIZO_setStrokeWidth="2dp"
+                tools:ignore="Deprecated" />
+
+            <com.libizo.CustomEditText
+                android:id="@+id/edtIDCard"
+                android:layout_width="320dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:hint="ID card"
+                android:inputType="number"
+                android:textColor="@color/white"
+                android:textColorHint="#95FFFFFF"
+                app:libIZO_setBorderColor="#ffe0ac"
+                app:libIZO_setBorderView="true"
+                app:libIZO_setClearIconVisible="true"
+                app:libIZO_setCornerRadius="8dp"
+                app:libIZO_setStrokeWidth="2dp" />
+
+            <com.ornach.nobobutton.NoboButton
+                android:id="@+id/btnSignUp"
+                android:layout_width="220dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="20dp"
+                android:padding="10dp"
+                app:nb_backgroundColor="#ffe0ac"
+                app:nb_borderColor="#FFFFFF"
+                app:nb_borderWidth="2dp"
+                app:nb_focusColor="#FDC464"
+                app:nb_radius="8dp"
+                app:nb_text="Sign Up"
+                app:nb_textColor="#18855C"
+                app:nb_textSize="18dp"
+                app:nb_textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Already have an Account? Login"
+                android:textColor="@color/white"
+                android:textSize="17dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

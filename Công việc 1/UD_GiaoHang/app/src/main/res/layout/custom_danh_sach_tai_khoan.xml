@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/lnItem"
+    android:orientation="horizontal"
+    android:background="@drawable/custom_item_taikhoan">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/avatar"
+        android:layout_width="59dp"
+        android:layout_height="59dp"
+        android:src="@drawable/avatar_default"
+        app:civ_border_width="1dp"
+        app:civ_border_color="#8C8E8C"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_gravity="center"
+            android:id="@+id/txtIDTaiKhoan"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="ID"
+            android:textSize="12dp"/>
+        <TextView
+            android:layout_gravity="center"
+            android:id="@+id/txtTenNguoiDung"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Tên Người Dùng"
+            android:textSize="17dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_gravity="center"
+            android:id="@+id/txtLoaiTaiKhoan"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Loại Tài Khoản"
+            android:textSize="15dp"/>
+    </LinearLayout>
+</LinearLayout>

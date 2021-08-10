@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".KhachHang_Screen.KH_Home">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".KhachHang_Screen.KH_Profile">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#18855C"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/ib_backprofile"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_baseline_chevron_left_24"
+                android:background="#18855C"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/thongtintaikhoan"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:layout_marginRight="35dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/thongtincanhan"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:textSize="14dp"/>
+
+            <TextView
+                android:id="@+id/tv_sua"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sua"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="240dp"
+                android:textSize="14dp"
+                android:textColor="#18855C"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:background="@android:color/darker_gray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/profile_image"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/avatar"
+                app:civ_border_width="1dp"
+                app:civ_border_color="#18855C"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_tennguoidung"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:textAlignment="center"
+                android:paddingTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="@string/tenkhachhang"
+                android:textColor="@color/black"
+                android:background="@drawable/custom_textview"/>
+
+            <TextView
+                android:id="@+id/tv_sodienthoai"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:textAlignment="center"
+                android:paddingTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="1sp"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:background="@drawable/custom_textview_1"
+                android:text="@string/sodienthoai"/>
+
+            <TextView
+                android:id="@+id/tv_email"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:textAlignment="center"
+                android:paddingTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="2sp"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:background="@drawable/custom_textview_1"
+                android:text="@string/email"/>
+
+            <TextView
+                android:id="@+id/tv_diachi"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:textAlignment="center"
+                android:paddingTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="1sp"
+                android:textColor="@color/black"
+                android:background="@drawable/custom_textview_1"
+                android:text="@string/diachi"/>
+
+            <TextView
+                android:id="@+id/tv_ngaysinh"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:textAlignment="center"
+                android:paddingTop="10dp"
+                android:layout_marginTop="1sp"
+                android:layout_marginRight="10dp"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:background="@drawable/custom_textview_1"
+                android:text="@string/ngaysinh"/>
+
+            <TextView
+                android:id="@+id/tv_cmnd"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="1sp"
+                android:textAlignment="center"
+                android:paddingTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:background="@drawable/custom_textview_2"
+                android:text="@string/cmnd"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        app:menu="@menu/bottom_nav"
+        app:itemIconTint="@drawable/selector"
+        app:itemTextColor="@drawable/selector"
+        app:itemBackground="@color/teal_700"
+        />
+</RelativeLayout>

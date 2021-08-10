@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Admin_Screen.AD_DanhSachTaiKhoan">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#18855C"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Danh Sách tài khoản"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="17dp"
+/>
+    </LinearLayout>
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/searchVeiw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F1F1F1"
+        app:queryHint="Tìm kiếm" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lọc Theo" />
+        <Spinner
+            android:id="@+id/spLoc"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:entries="@array/LoaiTaiKhoan"
+            />
+    </LinearLayout>
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/btnTaoTaiKhoanMoi"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="Thêm tài khoản mới"
+        android:backgroundTint="#18855C"/>
+    <ListView
+        android:id="@+id/lvDanhSachTaiKhoan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

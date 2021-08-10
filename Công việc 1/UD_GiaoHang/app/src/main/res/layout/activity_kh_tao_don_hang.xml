@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+        android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".KhachHang_Screen.KH_TaoDonHang">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#18855C"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/ibBackKH"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_baseline_chevron_left_24"
+            android:background="#18855C"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/t_o_m_i"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_marginRight="35dp"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="#f0f2f5"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ng_i_g_i_ng_i_nh_n"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="5dp"
+                    android:layout_gravity="center"/>
+
+                <ImageButton
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/ic_baseline_expand_more_24"
+                    android:background="#f0f2f5"
+                    android:layout_marginLeft="180dp"/>
+
+            </LinearLayout>
+
+            // Giao diện phần người gửi và người nhận
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nguoigui"
+                    android:textColor="#18855C"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="8dp"/>
+
+                <TextView
+                    android:id="@+id/tvTennguoidung"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tennguoigui"
+                    android:textSize="14dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nguoinhan"
+                    android:textColor="#18855C"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="8dp"/>
+
+                <EditText
+                    android:id="@+id/et_sdt"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:hint="@string/sodienthoai"
+                    android:drawableStart="@drawable/custom_phone_ic"
+                    android:background="@drawable/custom_input"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:drawablePadding="10dp"
+                    android:inputType="number"
+                    android:textSize="14sp"/>
+
+                <EditText
+                    android:id="@+id/et_tennguoinhan"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:hint="@string/tennguoinhan"
+                    android:drawableStart="@drawable/custom_person_ic"
+                    android:background="@drawable/custom_input"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:drawablePadding="10dp"
+                    android:inputType="text"
+                    android:textSize="14sp"/>
+
+                <EditText
+                    android:id="@+id/et_diachi"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:hint="@string/diachi"
+                    android:drawableStart="@drawable/custom_location_on_ic"
+                    android:background="@drawable/custom_input"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:drawablePadding="10dp"
+                    android:inputType="text"
+                    android:textSize="14sp"/>
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="#f0f2f5"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hanghoa"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="5dp"
+                    android:layout_gravity="center"/>
+
+                <ImageButton
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/ic_baseline_expand_more_24"
+                    android:background="#f0f2f5"
+                    android:layout_marginLeft="275dp"
+                    />
+
+            </LinearLayout>
+
+            //Giao diện hàng hóa
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hang_hoa"
+                    android:textColor="#18855C"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="8dp"/>
+
+                <EditText
+                    android:id="@+id/et_tenhanghoa"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:hint="@string/tenhanghoa"
+                    android:drawableStart="@drawable/custom_box_ic"
+                    android:background="@drawable/custom_input"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:drawablePadding="10dp"
+                    android:inputType="text"
+                    android:textSize="14sp"/>
+
+                <EditText
+                    android:id="@+id/et_giatrihang"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:hint="@string/giatrihanghoa"
+                    android:drawableStart="@drawable/custom_money_ic"
+                    android:background="@drawable/custom_input"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:drawablePadding="10dp"
+                    android:inputType="number"
+                    android:textSize="14sp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
+
+                    <EditText
+                        android:id="@+id/et_cannang"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="10dp"
+                        android:hint="@string/trongluong"
+                        android:background="@drawable/custom_input"
+                        android:layout_weight="1"
+                        android:paddingStart="20dp"
+                        android:paddingEnd="20dp"
+                        android:inputType="numberDecimal"
+                        android:textSize="14sp"/>
+
+                    <EditText
+                        android:id="@+id/et_soluong"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:hint="@string/soluong"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/custom_input"
+                        android:paddingStart="20dp"
+                        android:paddingEnd="20dp"
+                        android:inputType="number"
+                        android:textSize="14sp"/>
+
+
+
+                </LinearLayout>
+
+                <CheckBox
+                    android:id="@+id/ckb_thuhotien"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="@string/thuhotienhang"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="2dp"/>
+
+                <EditText
+                    android:editable="false"
+                    android:id="@+id/et_thuhotien"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:hint="@string/so0"
+                    android:drawableStart="@drawable/custom_money_ic"
+                    android:background="@drawable/custom_input"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:drawablePadding="10dp"
+                    android:textSize="14sp"/>
+
+                <View
+                    android:layout_width="390dp"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@android:color/darker_gray"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/anhhanghoa"
+                        android:textColor="#18855C"
+                        android:textSize="18dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="8dp" />
+
+                    <TextView
+                        android:id="@+id/tv_xoatatca"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/xoatatca"
+                        android:textColor="#18855C"
+                        android:textSize="14dp"
+                        android:layout_marginLeft="200dp"
+                        android:layout_marginTop="8dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ln_anhhanghoa"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:orientation="horizontal"
+                    android:layout_weight="3">
+
+                    <ImageButton
+                        android:id="@+id/ib_anh1"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/image_default"/>
+
+                    <ImageButton
+                        android:id="@+id/ib_anh2"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/image_default" />
+
+                    <ImageButton
+                        android:id="@+id/ib_anh3"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/image_default"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            //Giao diện thông tin chung
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="#f0f2f5"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/thongtinchung"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="5dp"
+                    android:layout_gravity="center"/>
+
+                <ImageButton
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/ic_baseline_expand_more_24"
+                    android:background="#f0f2f5"
+                    android:layout_marginLeft="220dp"/>
+
+            </LinearLayout>
+
+            //Giao diện chi tiết ttc
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                //Layout t1
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/nguoitratiencuoc"
+                        android:textSize="18dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/black"/>
+
+                    <Spinner
+                        android:id="@+id/sp_nguoiguitiencuoc"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:entries="@array/Nguoiguitien"
+                        android:layout_marginLeft="100dp"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="390dp"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@android:color/darker_gray"/>
+
+                //Layout t2
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/thoigiangiao"
+                        android:textSize="18dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/black"/>
+
+                    <Spinner
+                        android:id="@+id/sp_thaydoingaygiao"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:entries="@array/thaydoingaygiao"
+                        android:layout_marginLeft="145dp"/>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="390dp"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@android:color/darker_gray"/>
+
+                //Layout t3
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ghichu"
+                        android:textSize="18dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/black"/>
+
+                    <Spinner
+                        android:id="@+id/sp_thaydoighichu"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:entries="@array/ghichu"
+                        android:layout_marginLeft="100dp"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="390dp"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@android:color/darker_gray"/>
+
+                //Layout t4
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/cuocphi"
+                        android:textSize="18dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/tv_cuocphi"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/so0d"
+                        android:textSize="18dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="20dp"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"/>
+
+
+                </LinearLayout>
+
+                //Layout t5
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tổng cước"
+                        android:textSize="18dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="#18855C"/>
+
+                    <TextView
+                        android:id="@+id/tv_tongcuoc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/so0d"
+                        android:textSize="18dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="17dp"
+                        android:textColor="#18855C"
+                        android:textAlignment="center"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            //Button tạo đơn
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_taodon"
+                    android:layout_width="400dp"
+                    android:layout_height="65dp"
+                    android:layout_gravity="center"
+                    android:text="@string/taodon"
+                    android:backgroundTint="#18855C"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

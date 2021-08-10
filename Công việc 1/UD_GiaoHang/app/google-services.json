@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "621164895833",
+    "firebase_url": "https://ud-giaohang-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "ud-giaohang",
+    "storage_bucket": "ud-giaohang.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:621164895833:android:aa8544fa774ec530de9b48",
+        "android_client_info": {
+          "package_name": "com.danghoaw.UD_GiaoHang"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "621164895833-d6hi28unij4dj3hbehnalc3h9lmmjjlm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.danghoaw.UD_GiaoHang",
+            "certificate_hash": "34f2cf5abe36d91b6543eff2b8513b95d24c6c45"
+          }
+        },
+        {
+          "client_id": "621164895833-8b2i80uubem7iashslohslvp3s6ns6so.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDS0EmddL6HkEwHsMCgd4Tfu1Y6hAIN1VM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "621164895833-8b2i80uubem7iashslohslvp3s6ns6so.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,139 @@
+<resources>
+    <string name="app_name">Boxer Delivery</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="themnua">Thêm Nữa</string>
+    <array name="LoaiTaiKhoan">
+        <item>All</item>
+        <item>Nhân viên</item>
+        <item>Quản lý</item>
+        <item>Khách hàng</item>
+    </array>
+    <array name="TrangThaiDonHang">
+        <item>All</item>
+        <item>Đã tạo đơn hàng</item>
+        <item>Đã xác nhận</item>
+        <item>Đã từ chối</item>
+        <item>Đã hủy</item>
+        <item>Đã giao nhân viên đi lấy hàng</item>
+        <item>Đã giao nhân viên đi phát</item>
+        <item>Nhân viên đang đi lấy hàng</item>
+        <item>Nhân viên đang đi giao hàng</item>
+        <item>Đã lấy hàng</item>
+        <item>Đã giao hàng</item>
+        <item>Giao hàng không thành công</item>
+    </array>
+    <array name="TaiKhoan">
+        <item>Nhân viên</item>
+        <item>Quản lý</item>
+        <item>Khách hàng</item>
+    </array>
+    <string-array name="Nguoiguitien">
+        <item>Người gửi</item>
+        <item>Người nhận</item>
+    </string-array>
+    <string-array name="thaydoingaygiao">
+        <item>Cả ngày</item>
+        <item>Sáng (7h30 - 12h00)</item>
+        <item>Chiều (13h30 - 18h00)</item>
+        <item>Tối (18h30 - 21h00)</item>
+        <item>Ngày nghỉ lễ</item>
+    </string-array>
+    <string-array name="ghichu">
+        <item>Cho khách xem hàng</item>
+        <item>Không cho khách xem hàng</item>
+
+    </string-array>
+    <array name="Locdonhang">
+        <item>All</item>
+        <item>Đã tạo đơn</item>
+        <item>Đã từ chối</item>
+        <item>Chờ lấy</item>
+        <item>Đã lấy</item>
+        <item>Đang giao</item>
+        <item>Giao thành công</item>
+        <item>Đã hủy</item>
+    </array>
+    <string name="t_o_m_i">Tạo mới</string>
+    <string name="xemchitietdonhang">Xem chi tiết đơn hàng</string>
+    <string name="trongluonglayout">Trọng lượng:</string>
+    <string name="kg">kg</string>
+    <string name="soluonglayout">Số lượng:</string>
+    <string name="thuhotienhanglayout">Thu hộ tiền hàng:</string>
+    <string name="trangthaidon">TRẠNG THÁI ĐƠN HÀNG</string>
+    <string name="tenhanghoalayout">Tên hàng hóa:</string>
+    <string name="giatrihanghoalayout">Giá trị hàng hóa:</string>
+    <string name="tienthuho">Tiền thu hộ:</string>
+    <string name="loctheo">Lọc theo:</string>
+    <string name="timkiem">Tìm kiếm</string>
+    <string name="ng_i_g_i_ng_i_nh_n">NGƯỜI GỬI - NGƯỜI NHẬN</string>
+    <string name="nguoigui">Người gửi</string>
+    <string name="tennguoigui">Nguyễn Văn A</string>
+    <string name="nguoinhan">Người nhận</string>
+    <string name="sodienthoai">Số điện thọai</string>
+    <string name="tennguoinhan">Họ tên</string>
+    <string name="diachi">Địa chỉ</string>
+    <string name="hanghoa">HÀNG HÓA</string>
+    <string name="hang_hoa">Hàng hóa</string>
+    <string name="tenhanghoa">Tên hàng hóa</string>
+    <string name="giatrihanghoa">Giá trị hàng hóa</string>
+    <string name="soluong">Số lượng</string>
+    <string name="trongluong">Trọng lượng</string>
+    <string name="thuhotienhang">Thu hộ tiền hàng</string>
+    <string name="so0">0</string>
+    <string name="anhhanghoa">Ảnh hàng hóa</string>
+    <string name="xoatatca">Xóa tất cả</string>
+    <string name="thongtinchung">THÔNG TIN CHUNG</string>
+    <string name="nguoitratiencuoc">Người trả tiền cước</string>
+    <string name="sua">sửa</string>
+    <string name="thoigiangiao">Thời gian giao</string>
+    <string name="cangay">Cả ngày</string>
+    <string name="ghichu">Ghi chú</string>
+    <string name="chokhachxemhang">Cho khách xem hàng</string>
+    <string name="cuocphi">Cước phí</string>
+    <string name="d">đ</string>
+    <string name="taodon">Tạo đơn</string>
+    <string name="g">g</string>
+    <string name="fastdelivery">Fast delivery</string>
+    <string name="nd1">Đặt hàng ngay để nhận thật nhiều ưu đãi!</string>
+    <string name="tenkhachhang">Tên khách hàng</string>
+    <string name="donhang">Đơn hàng</string>
+    <string name="doanhthu">Doanh thu</string>
+    <string name="comingsoon">Comming soon</string>
+    <string name="taodonhang">Tạo đơn hàng</string>
+    <string name="logout">logout</string>
+    <string name="thongtintaikhoan">Thông tin tài khoản</string>
+    <string name="thongtincanhan">Thông tin cá nhân</string>
+    <string name="email">Email</string>
+    <string name="ngaysinh">Ngày sinh</string>
+    <string name="cmnd">CMND</string>
+    <string name="cauhinhtaikhoan">Cấu hình tài khoản</string>
+    <string name="capnhattaikhoan">CẬP NHẬT TÀI KHOẢN</string>
+    <string name="so0d">0</string>
+    <string name="madonhang">Mã đơn hàng</string>
+    <string name="tongcuoc">Tổng cước</string>
+    <string name="dataodon">Đã tạo đơn</string>
+    <string name="huydon">HỦY ĐƠN</string>
+    <string name="xemchitiet">XEM CHI TIẾT</string>
+
+    <string name="manhanvien">Mã Nhân Viên</string>
+    <string name="hoten">Họ Tên</string>
+
+    <string name="sdt">SDT</string>
+
+    <string name="doithongtin">Đổi thông tin</string>
+
+    <string name="suathongtin">Sửa thông tin</string>
+
+    <string name="luuthongtin">Lưu thông tin</string>
+    <string name="nhandonhang">Nhận đơn hàng</string>
+    <string name="chitietdonhang">Chi tiết đơn hàng</string>
+    <string name="xacnhandonhang">Xác nhận đơn hàng</string>
+    <string name="giaodonhang">Giao đơn hàng</string>
+    <string name="xacnhandagiaohang">Xác nhận đã giao hàng</string>
+    <string name="xacnhandilay">Xác nhận đi lấy</string>
+    <string name="doanh_thu">Doanh Thu</string>
+
+
+
+</resources>

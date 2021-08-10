@@ -1,0 +1,2 @@
+rootProject.name = "UD_GiaoHang"
+include ':app'
